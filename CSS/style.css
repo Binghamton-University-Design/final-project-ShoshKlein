@@ -1,0 +1,79 @@
+/*stylesheet*/
+
+:root{
+  --background-color: #fff;
+  --body-color:  #111;
+}
+
+body {
+  margin: 1rem;  
+  color: Var(--body-color);
+  font-family: 'Playfair Display', monospace;
+  background:  Var(--background-color);
+}
+
+h1{
+  font-size: 30pt;
+  text-decoration: underline;
+  margin-bottom: 0em;
+  margin-top: 5em;
+
+}
+
+#wrapper{
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+h2{
+  font-size: 15pt;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+h3{
+  font-size: 10pt;
+  margin-top: 1em;
+  margin-bottom: 0em;
+  text-align: center;
+}
+
+h4{
+  margin-bottom: 15em;
+  margin margin-top: 15em;
+}
+p{
+  font-size: 10pt;;
+}
+
+.begin{
+  margin-top: 0em;
+  margin-bottom: 10em;
+}
+
+.middle {
+  text-align: Center;
+}
+
+.inside{
+  text-align: center;
+  padding-left: 10em;
+  padding-right: 10em;
+}
+
+.sides {
+  margin-top: 0;
+  margin-bottom: 1em;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#title{
+width: 30%;
+text-align: center;
+margin: 0 auto;
+}
+
+
+
+
