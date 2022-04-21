@@ -6,7 +6,7 @@
 }
 
 body {
-  margin: 1rem;  
+  margin: 0;  
   color: Var(--body-color);
   font-family: 'Playfair Display', monospace;
   background:  Var(--background-color);
@@ -16,13 +16,11 @@ h1{
   font-size: 30pt;
   text-decoration: underline;
   margin-bottom: 0em;
-  margin-top: 5em;
 
 }
 
 #wrapper{
   margin: 0 auto;
-  max-width: 1200px;
 }
 
 h2{
@@ -46,26 +44,10 @@ p{
   font-size: 10pt;;
 }
 
-.begin{
-  margin-top: 0em;
-  margin-bottom: 10em;
-}
-
-.middle {
-  text-align: Center;
-}
-
-.inside{
-  text-align: center;
-  padding-left: 10em;
-  padding-right: 10em;
-}
-
-.sides {
-  margin-top: 0;
-  margin-bottom: 1em;
-  padding-left: 50px;
-  padding-right: 50px;
+#title-holder {
+  display: flex;
+  align-items: center;
+  height: 100vh;
 }
 
 #title{
@@ -74,43 +56,19 @@ text-align: center;
 margin: 0 auto;
 }
 
-/* Split the screen in half */
-.split {
-  height: 100%;
-  width: 50%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  overflow-x: hidden;
-  padding-top: 20px;
+.left-story {
+  background: black;
+  color: white;
 }
 
-/* Control the left side */
-.left {
-  left: 0;
-  background-color: #111;
+.right-story {
+  background: white;
+  color: black;
 }
 
-/* Control the right side */
-.right {
-  right: 0;
-  background-color: White;
+.left-story, .right-story {
+  padding: 2em;
 }
-
-/* If you want the content centered horizontally and vertically 
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-} */
-
-/* Style the image inside the centered container, if needed
-.centered img {
-  width: 150px;
-  border-radius: 50%;
-} */
 
 
 
