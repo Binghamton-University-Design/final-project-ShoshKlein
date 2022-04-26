@@ -82,7 +82,10 @@ margin: 0 auto;
   Color: #FFFFFF;
 }
 
-
+.box {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
 
 
 
