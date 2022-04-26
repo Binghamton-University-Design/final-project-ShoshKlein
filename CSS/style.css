@@ -71,7 +71,16 @@ margin: 0 auto;
   padding: 2em;
 }
 
+/*Text Highlight Selection Color*/
+::Selection{
+  Background: pink;
+  Color: #FFFFFF;
+}
 
+::-moz-selection {
+  Background: pink;
+  Color: #FFFFFF;
+}
 
 
 
