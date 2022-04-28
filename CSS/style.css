@@ -87,5 +87,17 @@ margin: 0 auto;
   padding-bottom: 4em;
 }
 
+.float-left {
+    width: 350px; 
+    float: left; 
+    margin-right: 10px;
+}
+
+.float-right {
+    width: 350px; 
+    float: right; 
+    margin-right: 10px;
+}
+
 
 
