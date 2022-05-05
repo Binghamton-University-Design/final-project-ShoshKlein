@@ -45,6 +45,7 @@ p{
 }
 
 #title-holder {
+  background: white;
   display: flex;
   align-items: center;
   height: 100vh;
@@ -57,12 +58,10 @@ margin: 0 auto;
 }
 
 .left-story {
-  background: black;
   color: white;
 }
 
 .right-story {
-  background: white;
   color: black;
 }
 
@@ -104,9 +103,22 @@ margin: 0 auto;
   align-items: center;
 }
 
-
 .poor{
   padding-left: 3em;
+}
+
+.story-item {
+  margin-bottom: 25vh;
+}
+
+#background {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 50%;
+  height: 100%;
+  background-color: #000;
+  z-index: -1;
 }
 
 
